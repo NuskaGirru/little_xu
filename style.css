@@ -2,8 +2,9 @@ body {
     background-color: #fff;
     color: #303;
 
-    margin: 50px 200px 200px 200px;
-    border: solid 2px #eee;
+
+    width: 960px;
+    margin: 0 auto;
     padding: 20px;
 
 
@@ -13,15 +14,48 @@ body {
 }
 
 
-p {
-    margin: 0;
-}
+
 
 body h1 {
     background-color: #aaa;
     color: #fff;
+}
 
-    padding: 0;
-    margin: 0;
+/* Header of the site. Menu */
 
+.box {
+    background: blanchedalmond;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    text-transform: uppercase;
+
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+
+#home {
+    position: fixed;
+    top: 100px;
+    left: 300px;
+}
+
+#articles {
+    position: fixed;
+    top: 100px;
+    left: 550px;
+}
+
+#photography {
+    position: fixed;
+    top: 100px;
+    left: 800px;
+}
+
+#about {
+    position: fixed;
+    top: 100px;
+    left: 1050px;
 }
