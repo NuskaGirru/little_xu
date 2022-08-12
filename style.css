@@ -24,11 +24,9 @@ body h1 {
 /* Header of the site. Menu */
 
 .box {
-    width: 960px;
-    margin: 0 auto;
     background: blanchedalmond;
     text-align: center;
-    height: 50px;
+    height: 150px;
     width: 200px;
     line-height: 50px;
     text-transform: uppercase;
@@ -39,25 +37,42 @@ body h1 {
 }
 
 #home {
-    position: fixed;
-    top: 100px;
-    left: 300px;
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
 
 #articles {
-    position: fixed;
-    top: 100px;
-    left: 550px;
+    position: relative;
+    top: 0px;
+    left: 200px;
 }
 
 #photography {
-    position: fixed;
-    top: 100px;
-    left: 800px;
+    position: relative;
+    top: 0px;
+    left: 300px;
 }
 
 #about {
-    position: fixed;
-    top: 100px;
-    left: 1050px;
+    position: relative;
+    top: 0px;
+    left: 400px;
 }
+
+
+
+
+
+
+
+#home-test {
+    position: relative;
+    top: 0px;
+    left: 100px;
+}
+
+#articles-test {
+    position: relative;
+    top: 0px;
+    left: 200px;
