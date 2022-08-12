@@ -24,6 +24,8 @@ body h1 {
 /* Header of the site. Menu */
 
 .box {
+    width: 960px;
+    margin: 0 auto;
     background: blanchedalmond;
     text-align: center;
     height: 50px;
