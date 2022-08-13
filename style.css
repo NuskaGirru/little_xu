@@ -4,6 +4,7 @@ body {
 
 
     width: 960px;
+    min-width: 960px;
     margin: 0 auto;
     padding: 20px;
 
@@ -23,17 +24,35 @@ body h1 {
 
 /* Header of the site. Menu */
 
+.website-header {
+
+    text-align: center;
+    margin: 15px auto;
+    padding: 15px;
+
+    line-height: 50px;
+
+
+    box-sizing: border-box;
+
+
+
+}
+
+
+
 .box {
     background: blanchedalmond;
     text-align: center;
-    height: 150px;
-    width: 200px;
-    line-height: 50px;
-    text-transform: uppercase;
 
-    position: fixed;
-    top: 100px;
-    left: 100px;
+    margin: 15px auto;
+    padding: 15px;
+
+    line-height: 50px;
+
+
+    box-sizing: border-box;
+
 }
 
 #home {
@@ -45,34 +64,22 @@ body h1 {
 #articles {
     position: relative;
     top: 0px;
-    left: 200px;
+    left: 40px;
 }
 
 #photography {
     position: relative;
     top: 0px;
-    left: 300px;
-}
-
-#about {
-    position: relative;
-    top: 0px;
-    left: 400px;
+    left: 80px;
 }
 
 
-
-
-
-
-
-#home-test {
-    position: relative;
+#connect {
+position: relative;
     top: 0px;
-    left: 100px;
+    left: 120px;
+
 }
 
-#articles-test {
-    position: relative;
-    top: 0px;
-    left: 200px;
+
+/* End of:  Header of the site. Menu */
